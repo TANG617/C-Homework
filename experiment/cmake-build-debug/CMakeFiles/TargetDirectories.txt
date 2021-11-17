@@ -1,3 +1,0 @@
-/Users/timli/2021-C-Homework/experiment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/timli/2021-C-Homework/experiment/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/timli/2021-C-Homework/experiment/cmake-build-debug/CMakeFiles/experiment.dir

@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/timli/2021-C-Homework/experiment
+CMAKE_SOURCE_DIR = /Users/timli/2021-C-Homework/10_2_experiment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/timli/2021-C-Homework/experiment/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/timli/2021-C-Homework/10_2_experiment/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timli/2021-C-Homework/experiment/cmake-build-debug/CMakeFiles /Users/timli/2021-C-Homework/experiment/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timli/2021-C-Homework/10_2_experiment/cmake-build-debug/CMakeFiles /Users/timli/2021-C-Homework/10_2_experiment/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timli/2021-C-Homework/experiment/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timli/2021-C-Homework/10_2_experiment/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named experiment
+# Target rules for targets named 10_2_experiment
 
 # Build rule for target.
-experiment: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment
-.PHONY : experiment
+10_2_experiment: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_2_experiment
+.PHONY : 10_2_experiment
 
 # fast build rule for target.
-experiment/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment.dir/build.make CMakeFiles/experiment.dir/build
-.PHONY : experiment/fast
+10_2_experiment/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_2_experiment.dir/build.make CMakeFiles/10_2_experiment.dir/build
+.PHONY : 10_2_experiment/fast
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment.dir/build.make CMakeFiles/experiment.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_2_experiment.dir/build.make CMakeFiles/10_2_experiment.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +142,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment.dir/build.make CMakeFiles/experiment.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_2_experiment.dir/build.make CMakeFiles/10_2_experiment.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,7 +150,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment.dir/build.make CMakeFiles/experiment.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_2_experiment.dir/build.make CMakeFiles/10_2_experiment.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... experiment"
+	@echo "... 10_2_experiment"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

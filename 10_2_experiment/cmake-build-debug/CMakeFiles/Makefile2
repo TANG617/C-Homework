@@ -54,16 +54,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/timli/2021-C-Homework/experiment
+CMAKE_SOURCE_DIR = /Users/timli/2021-C-Homework/10_2_experiment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/timli/2021-C-Homework/experiment/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/timli/2021-C-Homework/10_2_experiment/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/experiment.dir/all
+all: CMakeFiles/10_2_experiment.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/experiment.dir/clean
+clean: CMakeFiles/10_2_experiment.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/experiment.dir
+# Target rules for target CMakeFiles/10_2_experiment.dir
 
 # All Build rule for target.
-CMakeFiles/experiment.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment.dir/build.make CMakeFiles/experiment.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment.dir/build.make CMakeFiles/experiment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/timli/2021-C-Homework/experiment/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target experiment"
-.PHONY : CMakeFiles/experiment.dir/all
+CMakeFiles/10_2_experiment.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_2_experiment.dir/build.make CMakeFiles/10_2_experiment.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_2_experiment.dir/build.make CMakeFiles/10_2_experiment.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/timli/2021-C-Homework/10_2_experiment/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 10_2_experiment"
+.PHONY : CMakeFiles/10_2_experiment.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/experiment.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timli/2021-C-Homework/experiment/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/experiment.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timli/2021-C-Homework/experiment/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/experiment.dir/rule
+CMakeFiles/10_2_experiment.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timli/2021-C-Homework/10_2_experiment/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/10_2_experiment.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timli/2021-C-Homework/10_2_experiment/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/10_2_experiment.dir/rule
 
 # Convenience name for target.
-experiment: CMakeFiles/experiment.dir/rule
-.PHONY : experiment
+10_2_experiment: CMakeFiles/10_2_experiment.dir/rule
+.PHONY : 10_2_experiment
 
 # clean rule for target.
-CMakeFiles/experiment.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment.dir/build.make CMakeFiles/experiment.dir/clean
-.PHONY : CMakeFiles/experiment.dir/clean
+CMakeFiles/10_2_experiment.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_2_experiment.dir/build.make CMakeFiles/10_2_experiment.dir/clean
+.PHONY : CMakeFiles/10_2_experiment.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

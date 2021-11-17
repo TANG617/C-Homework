@@ -1,4 +1,4 @@
-# Install script for directory: /Users/timli/2021-C-Homework/experiment
+# Install script for directory: /Users/timli/2021-C-Homework/10_2_experiment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/timli/2021-C-Homework/experiment/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/timli/2021-C-Homework/10_2_experiment/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
