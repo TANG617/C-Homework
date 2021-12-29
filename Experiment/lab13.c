@@ -4,7 +4,7 @@
 struct EquationInfoStru{
 	double a;	//方程系数1
 	double b;	//方程系数2
-	double c;  //方程系数3
+	double c;   //方程系数3
     int nRootStatus;  //方程根的不同情况
 	double dRoot1;//方程的第一个根
     double dRoot2;//方程的第二个根
